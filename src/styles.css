@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=DM+Serif+Display&family=Inter&display=swap");
+.menu {
+  display: flex;
+  justify-content: space-around;
+
+  height: 75px;
+  text-align: center;
+  border-style: solid none solid none;
+
+  width: 90%;
+  border-width: 2px;
+  border-color: #282c34;
+  flex-direction: row;
+}
+
+.pi {
+  width: 300px;
+  height: 300px;
+  margin-bottom: "none";
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightblue;
+
+  /* background-color: rgba(56, 190, 237, 0.3); */
+}
+.footer h4 {
+  font-family: "Staatliches", cursive;
+  color: #044269;
+}
+.footer p {
+  font-family: "Quicksand", sans-serif;
+}
+.footer center {
+  font-family: "Staatliches", cursive;
+  color: #044269;
+}
+.video h3 {
+  font-family: "Staatliches", cursive;
+  color: #044269;
+}
+.titlename {
+  font-family: "Merriweather", serif;
+  color: #044269;
+}
+.mySlides {
+  display: none;
+}
+.menu h2 {
+  padding: 5px;
+  border-radius: 5px;
+  /* color: rgb(90, 195, 235); */
+  font-family: "Cormorant Infant", serif;
+  font-weight: 700;
+  color: #044269;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+.menu h2:hover {
+  color: green;
+  transition: 0.5s;
+}
+
+.logo {
+  width: 180px;
+  border-radius: 5px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.articlecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.article {
+  margin-left: 65px;
+  width: 65%;
+}
+.article img {
+  width: 550px;
+  height: 250px;
+  display: block;
+  margin-left: 60px;
+  border-radius: 10px;
+}
+.article h2 {
+  font-family: "Exo 2", sans-serif;
+}
+.article p {
+  font-family: "Quicksand", sans-serif;
+}
+.video {
+  margin-right: 40px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 350px;
+  }
+  .optional {
+    display: none;
+  }
+  .articlecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .video {
+    display: none;
+  }
+  .article img {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .article {
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+}

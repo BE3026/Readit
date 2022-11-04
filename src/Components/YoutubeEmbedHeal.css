@@ -1,0 +1,22 @@
+.video-responsive {
+  /* overflow: hidden; */
+  padding-bottom: 40px;
+  position: relative;
+  height: 0;
+  width: 100%;
+}
+.video-responsive iframe {
+  margin-bottom: 20px;
+  /* top: 10%; */
+  height: 160.86px;
+  width: 285.99px;
+  margin-left: 10px;
+  /* padding-bottom: 20px; */
+  margin-bottom: 40px;
+}
+/* .video-responsive iframe:first-child {
+  margin-bottom: 20px;
+} */
+.footer {
+  margin-top: 10px;
+}

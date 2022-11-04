@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=DM+Serif+Display&family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+.slide-container {
+  width: 50%;
+  margin-left: 25px;
+  height: 200px;
+}
+.image-container img {
+  height: 400px;
+}
+.slideflex {
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+}
+.promoflex {
+  display: flex;
+}
+
+.promo {
+  margin-top: 20px;
+  padding: 10px;
+  padding-bottom: 0px;
+  /* border: 2px solid black;
+  border-radius: 10px; */
+  /* width: 350px; */
+  /* overflow: scroll; */
+  /* margin-left: 30px; */
+  /* margin-bottom: 20px; */
+  margin-right: 20px;
+}
+.promo h2 {
+  font-family: "Merriweather", serif;
+  color: #044269;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.bor1 {
+  border-block-start: 5px solid;
+  padding-block-start: 10px;
+  border-image-source: linear-gradient(90deg, #33d1ff, lightblue);
+  border-image-slice: 1;
+  border-block-end: 5px solid;
+  padding-block-end: 10px;
+  margin-top: 150px;
+  width: 300px;
+  margin-right: 30px;
+  height: 550px;
+}
+
+.newsfeed {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.sample {
+  flex-basis: 250px;
+  padding: 7px;
+  border-radius: 7px;
+  font-family: "Exo 2", sans-serif;
+}
+.latest {
+  display: flex;
+  justify-content: space-around;
+}
+.latestnews {
+  width: 50%;
+  margin-left: 0px;
+}
+.latestnews p {
+  font-family: "Quicksand", sans-serif;
+}
+.latestnews h2 {
+  font-family: "Merriweather", serif;
+  color: #044269;
+}
+
+.youtuimg {
+  margin-left: 100px;
+}
+.youtuimg img {
+  margin-left: 80px;
+}
+.youtuimg h4 {
+  margin-left: 80px;
+}
+.newscontainer {
+  display: flex;
+  justify-content: space-around;
+}
+.formsub {
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  flex-basis: 70%;
+  height: 500px;
+  margin-right: 10px;
+  font-family: "Merriweather", serif;
+}
+.formsub h4 {
+  color: #044269;
+}
+.submitbutton {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+.newssec {
+  display: flex;
+  flex-direction: column;
+}
+.sample:hover {
+  border: 2px solid black;
+  flex-basis: 300px;
+  transition: 0.5s;
+}
+.newsapicontainer {
+  display: flex;
+  flex-direction: column;
+}
+.weatherbg {
+  margin-top: 0px;
+  background-size: 100% 100%;
+  color: orangered;
+  width: 250px;
+  flex-basis: 250px;
+
+  border-radius: 10px;
+  height: auto;
+  border: 2px solid black;
+  font-family: "Oswald", sans-serif;
+}
+.aboutcontainer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.aboutcontent {
+  -webkit-box-shadow: 0 0 10px gray;
+  box-shadow: 0 0 10px gray;
+  border-radius: 15px;
+  flex-basis: 500px;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+}
+.aboutcontent:hover {
+  flex-basis: 600px;
+  transition: 0.5s;
+}
+.inp {
+  height: 50px;
+  width: 500px;
+}
+.contactform {
+  margin-top: 0px;
+  background-color: white;
+}
+.contactform div {
+  margin-left: 50px;
+}
+.contactform p {
+  font-family: "Quicksand", sans-serif;
+}
+.contactform h3 {
+  font-family: "Merriweather", serif;
+}
+.submitbutton:hover {
+  background-color: green;
+  color: white;
+}
+.newssec h1 {
+  font-family: "Merriweather", serif;
+  color: #044269;
+}
+@media only screen and (max-width: 768px) {
+  .promo {
+    display: none;
+  }
+  .slide-container {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .latestnews {
+    width: 90%;
+    margin-left: 0px;
+    margin-left: 5px;
+  }
+  .youtuimg {
+    display: none;
+  }
+  .latestnews {
+    width: 100%;
+  }
+  .formsub {
+    display: none;
+  }
+  .aboutcontainer {
+    display: flex;
+    flex-direction: column;
+    height: 180vh;
+  }
+  .aboutcontent {
+    margin-top: 20px;
+    width: 90%;
+    flex-basis: 200px;
+  }
+  .aboutcontent h3 {
+    font-family: "Quicksand", sans-serif;
+  }
+  .aboutcontent p {
+    font-family: "Quicksand", sans-serif;
+  }
+  .aboutcontent:hover {
+    flex-basis: 300px;
+    transition: 0.5s;
+  }
+  .contactform div {
+    text-align: center;
+    margin-left: 5px;
+  }
+  textarea {
+    height: 100px;
+    width: 90%;
+  }
+  .inp {
+    width: 90%;
+  }
+  .slideflex {
+    height: 250px;
+  }
+  .image-container img {
+    height: auto;
+  }
+}
